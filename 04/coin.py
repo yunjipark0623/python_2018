@@ -16,8 +16,8 @@ money %=  50
 c10 = money // 10
 money %=  10
 
-print("\n 오백원짜리 ==> %d 개 " % c500)
-print(" 백원짜리   ==> %d 개 "% c100)
-print(" 오십원짜리 ==> %d 개 "% c50)
-print(" 십원짜리   ==> %d 개 "% c10)
-print(" 바꾸지 못한 잔돈 ==> %d 원 \n"% money)
+print("\n 500원짜리 ==> %d 개 " % c500)
+print(" 100원짜리 ==> %d 개 "% c100)
+print(" 50원짜리 ==> %d 개 "% c50)
+print(" 10짜리 ==> %d 개 "% c10)
+print(" 잔돈 ==> %d 원 \n"% money)
