@@ -2,9 +2,9 @@
 a, b, ch = 0, 0, ""
 
 ## 메인(main) 코드 부분
-a=int(input("첫번째 수를 입력하세요 : "))
-ch=input("계산할 연산자를  입력하세요 : ")
-b=int(input("두번째 수를 입력하세요 : "))
+a = int(input("첫번째 수를 입력하세요 : "))
+ch = input("계산할 연산자를 입력하세요 : ")
+b = int(input("두번째 수를 입력하세요 : "))
 
 if ch == "+" :
     print(" %d + %d = %d 입니다. " % (a, b, a + b))
@@ -14,10 +14,11 @@ elif ch == "*" :
     print(" %d * %d = %d 입니다. " % (a, b, a * b))
 elif ch == "/" :
     print(" %d / %d = %f 입니다. " % (a, b, a / b))    
-elif ch == "-" :
+elif ch == "%" :
     print(" %d %% %d = %d 입니다. " % (a, b, a % b))
+## 나누기 했을 때 몫 출력 (//)
 elif ch == "//" :
-    print(" %d // %d = %d 입니다. " % (a, b, a // b))
+    print(" %d // %d = %d 입니다. " % (a, b, a // b)) 
 elif ch == "**" :
     print(" %d ** %d = %d 입니다. " % (a, b, a ** b))    
 else :
